@@ -6,7 +6,7 @@ title:               BBC Recipes Archive
 tagline:             'The BBC Recipes Archive… archived'
 description:         'The BBC Recipes Archive… archived'
 url:                 https://bbcrecipes.github.io
-baseurl:             ''
+baseurl:             'https://bbcrecipes.github.io'
 paginate:            5
 paginate_path: "/blog/page:num/"
 
