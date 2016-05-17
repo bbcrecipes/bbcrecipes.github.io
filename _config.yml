@@ -8,6 +8,7 @@ description:         'The BBC Recipes Archive… archived'
 url:                 https://bbcrecipes.github.io
 baseurl:             ''
 paginate:            5
+paginate_path: "/blog/page:num/"
 
 # About/contact
 author:
