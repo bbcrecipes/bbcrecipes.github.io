@@ -5,18 +5,24 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               BBC Recipes Archive
+tagline:             'The BBC Recipes Archive… archived'
+description:         'The BBC Recipes Archive… archived'
+url:                 https://bbcrecipes.github.io
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              David Darnes
+  url:               https://twitter.com/daviddarnes
+  email:             me@daviddarnes.com
 
 # Custom vars
 version:             1.0.0
+
+# Recipes collection
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/
