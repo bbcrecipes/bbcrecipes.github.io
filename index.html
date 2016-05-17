@@ -7,7 +7,7 @@ title: Home
   {% for recipe in site.recipes %}
   <div class="recipe">
     <h1 class="recipe-title">
-      <a href="{{ site.baseurl }}/{{ recipe.url }}">
+      <a href="{{ site.baseurl }}{{ recipe.url }}">
         {{ recipe.title }}
       </a>
     </h1>
